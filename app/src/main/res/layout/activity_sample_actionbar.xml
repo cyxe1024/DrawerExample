@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="test"
+            android:text="This is where a functional Google Maps API would be integrated into the final version"
             android:textSize="16sp" />
     </FrameLayout>
 </RelativeLayout>

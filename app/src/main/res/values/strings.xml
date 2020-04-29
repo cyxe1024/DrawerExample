@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MaterialDrawer</string>
+    <string name="app_name">Midtown Move</string>
 
     <!-- Sample menu -->
     <string name="action_settings">Settings</string>
@@ -7,16 +7,16 @@
     <!-- Drawer Items -->
     <string name="drawer_item_persistent_compact_header">PersistentHeader Drawer</string>
     <string name="drawer_item_persistent_compact_header_desc">Smaller persistent account header</string>
-    <string name="drawer_item_compact_header">CompactHeader Drawer</string>
-    <string name="drawer_item_compact_header_desc">Smaller account header</string>
-    <string name="drawer_item_action_bar_drawer">ActionBar Drawer</string>
-    <string name="drawer_item_action_bar_drawer_desc">Shows how to use with an actionbar</string>
-    <string name="drawer_item_multi_drawer">Multi Drawer</string>
-    <string name="drawer_item_multi_drawer_desc">Left and Right side drawer</string>
-    <string name="drawer_item_non_translucent_status_drawer">NonTranslucentStatus Drawer</string>
-    <string name="drawer_item_non_translucent_status_drawer_desc">Drawer below statusBar</string>
-    <string name="drawer_item_advanced_drawer">Advanced Drawer</string>
-    <string name="drawer_item_advanced_drawer_desc">More advanced drawer features</string>
+    <string name="drawer_item_compact_header">Favorite Bars</string>
+    <string name="drawer_item_compact_header_desc">Click me to see your fave bars!</string>
+    <string name="drawer_item_action_bar_drawer">Google Maps</string>
+    <string name="drawer_item_action_bar_drawer_desc">Sends you to the map screen</string>
+    <string name="drawer_item_multi_drawer">About Us</string>
+    <string name="drawer_item_multi_drawer_desc">Learn about who we are!</string>
+    <string name="drawer_item_non_translucent_status_drawer">Notifications</string>
+    <string name="drawer_item_non_translucent_status_drawer_desc">Alerts and updates</string>
+    <string name="drawer_item_advanced_drawer">Sign In/Out</string>
+    <string name="drawer_item_advanced_drawer_desc">Sign in or out of your account</string>
     <string name="drawer_item_embedded_drawer">Embedded Drawer</string>
     <string name="drawer_item_embedded_drawer_desc">Embed the drawer anywhere</string>
     <string name="drawer_item_mini_drawer">MiniDrawer</string>

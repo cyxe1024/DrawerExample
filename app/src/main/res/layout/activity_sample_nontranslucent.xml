@@ -10,6 +10,42 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp" />
 
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_below="@id/toolbar"
+        android:backgroundTint="@android:color/darker_gray"
+        >
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:textAlignment="center"
+            android:text = "Welcome to Midtown Move!"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:text = "We are very excited to have you! Below we have outlined a..."
+            android:textSize="15dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+
     <FrameLayout
         android:layout_below="@id/toolbar"
         android:id="@+id/frame_container"
@@ -21,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="test"
+            android:text="notifications will appear here"
             android:textSize="16sp" />
     </FrameLayout>
 </RelativeLayout>

@@ -16,21 +16,50 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <FrameLayout
+    <LinearLayout
         android:id="@+id/frame_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar">
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/txtLabel"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="start"
+            android:text="    Social at Midtown"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="209dp"
+            android:src="@drawable/social" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="start"
+            android:text="                      Current Wait Time: 7 min \n                            Current Cover: $7"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Test"
-            android:textSize="16sp" />
-    </FrameLayout>
+            android:layout_marginBottom="@dimen/md_baseline"
+            android:onClick="openDrawerFrameLayout"
+            android:text="UPDATE" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/md_baseline"
+            android:onClick="openDrawerActivity"
+            android:text="RETURN TO MAP VIEW" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
